@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "accounts",
     "workspaces",
+    "document",
     "rest_framework",
 ]
 
