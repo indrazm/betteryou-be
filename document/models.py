@@ -2,6 +2,7 @@ from django.db import models
 from workspaces.models import Space
 from django.utils.text import slugify
 
+
 # Create your models here.
 class Document(models.Model):
     name = models.CharField(max_length=100)
