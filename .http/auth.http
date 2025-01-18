@@ -1,0 +1,18 @@
+### Login
+POST http://localhost:8000/api/login/
+Content-Type: application/json
+
+{
+    "username": "indrazulfi",
+    "password": "z8ZcC79pkX278lpJ"
+}
+
+### Register
+POST http://localhost:8000/api/register/
+Content-Type: application/json
+
+{
+    "username": "vino",
+    "email": "vino@gmail.com",
+    "password": "z8ZcC79pkX278lpJ"
+}
