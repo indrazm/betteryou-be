@@ -7,6 +7,8 @@ from django.utils.text import slugify
 class Document(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
+    file = models.FileField(upload_to="public/documents/", null=True, blank=True)
+
     space = models.ForeignKey(Space, on_delete=models.CASCADE)
 
     created_at = models.DateTimeField(auto_now_add=True)

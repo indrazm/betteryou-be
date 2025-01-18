@@ -1,3 +1,4 @@
 pip freeze > requirements.txt
 ruff format
 ruff check --fix
+git add .
